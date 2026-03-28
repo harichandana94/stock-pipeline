@@ -1,0 +1,31 @@
+[0m09:04:19.466852 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105c992b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105f6e960>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105f6e6c0>]}
+
+
+============================== 09:04:19.472427 | 9702cbf2-8232-4341-9b2f-3fdebf874982 ==============================
+[0m09:04:19.472427 [info ] [MainThread]: Running with dbt=1.11.7
+[0m09:04:19.472917 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'log_path': 'logs', 'invocation_command': 'dbt init stock_transform', 'static_parser': 'True', 'use_experimental_parser': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'profiles_dir': '/Users/harichandana/.dbt', 'warn_error': 'None', 'partial_parse': 'True', 'debug': 'False', 'write_json': 'True', 'log_cache_events': 'False', 'target_path': 'None', 'send_anonymous_usage_stats': 'True', 'fail_fast': 'False', 'printer_width': '80', 'use_colors': 'True', 'introspect': 'True', 'cache_selected_only': 'False', 'no_print': 'None', 'indirect_selection': 'eager'}
+[0m09:04:19.486096 [info ] [MainThread]: Creating dbt configuration folder at /Users/harichandana/.dbt
+[0m09:04:19.487531 [debug] [MainThread]: Starter project path: /Users/harichandana/.pyenv/versions/3.12.11/lib/python3.12/site-packages/dbt/include/starter_project
+[0m09:04:19.492157 [info ] [MainThread]: 
+Your new dbt project "stock_transform" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m09:04:19.492422 [info ] [MainThread]: Setting up your profile.
+[0m09:07:47.907038 [info ] [MainThread]: Profile stock_transform written to /Users/harichandana/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m09:07:48.109828 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 208.71396, "process_in_blocks": "0", "process_kernel_time": 0.283997, "process_mem_max_rss": "106741760", "process_out_blocks": "0", "process_user_time": 1.245165}
+[0m09:07:48.111402 [debug] [MainThread]: Command `dbt init` succeeded at 09:07:48.111099 after 208.72 seconds
+[0m09:07:48.113174 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105c992b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105c9b230>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1068341d0>]}
+[0m09:07:48.114533 [debug] [MainThread]: Flushing usage events
+[0m09:07:48.565423 [debug] [MainThread]: An error was encountered while trying to flush usage events

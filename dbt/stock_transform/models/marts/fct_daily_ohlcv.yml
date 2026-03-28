@@ -1,0 +1,17 @@
+version: 2
+
+models:
+  - name: fct_daily_ohlcv
+    description: "Daily OHLCV fact table with calculated metrics"
+    columns:
+      - name: ticker
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['AAPL', 'MSFT', 'TSLA', 'GOOGL', 'AMZN']
+      - name: close_price
+        tests:
+          - not_null
+      - name: daily_change_pct
+        tests:
+          - not_null
